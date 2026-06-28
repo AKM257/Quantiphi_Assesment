@@ -1,0 +1,16 @@
+export function CardSkeleton() {
+  return (
+    <div className="bg-white rounded-xl border border-slate-200 p-4 animate-pulse">
+      <div className="flex justify-between gap-3">
+        <div className="flex-1 space-y-2">
+          <div className="h-4 bg-slate-200 rounded w-1/3" />
+          <div className="h-3 bg-slate-100 rounded w-2/3" />
+        </div>
+        <div className="space-y-2 items-end flex flex-col">
+          <div className="h-4 bg-slate-200 rounded w-16" />
+          <div className="h-5 bg-slate-100 rounded-full w-24" />
+        </div>
+      </div>
+    </div>
+  );
+}
