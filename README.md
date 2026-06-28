@@ -4,7 +4,6 @@ A digital-banking-style dashboard that parses unstructured UPI transaction
 messages, auto-categorizes merchants, detects cashback-eligible purchases,
 and visualizes spend with animated category breakdowns.
 
-![Repo structure](./screenshots/repo-structure.png)
 
 ## What it does
 
@@ -20,9 +19,6 @@ and visualizes spend with animated category breakdowns.
 - Separates incoming vs outgoing transactions with live totals
 - Shows category spend as animated progress bars and a donut chart
 
-![Dashboard - all transactions](./screenshots/dashboard-all.png)
-
-![Dashboard - incoming filter](./screenshots/dashboard-incoming.png)
 
 ## Tech stack
 
